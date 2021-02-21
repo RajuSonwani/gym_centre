@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('img.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.left{
+    display: inline-block;
+    /* border: 3px solid white; */
+    margin: 5px 88px;
+    width: 11%;
+    height: 17px;
+}
+.left img{
+    width: 190px;
+    height: 100px;
+    filter: invert(100%);
+}
+.mid{
+    /* border: 3px solid white; */ 
+    display: block;
+    margin: -100px auto;
+    width: 60%;
+    height: 41px;
+}
+.mid ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    display: inline;
+    margin: 0px 10px;
+}
+.mid ul li a{
+    color: rgb(230, 10, 10);
+    text-decoration-line: none;
+    font-weight: bolder;
+    font-size: 40px;  
+}
+.mid ul li a:hover,.mid ul li a:active{
+    text-decoration-line: underline;
+    color: rgb(10, 230, 200); 
+}
+.right{
+    /* border: 3px solid white; */
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    margin: 33px 27px;
+    width: 15%;
+    height: 76px;
+}
+.btn{
+    margin: 30px 2px;
+    padding: 9px 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(80, 80, 75);
+    
+}
+.form{
+    border: 3px solid white;
+    border-radius: 22px;
+    width: 344px;
+    height: 392px;
+    margin: 240px 0px 0px 930px;
+}
+#h3{
+    padding: 2px 26px;
+    border: 2px solid #e7ca13;
+    border-radius: 22px;
+    background-color: rgb(115, 136, 133);
+    display: block;
+    width: 174px;
+    margin: 20px 66px;
+}
+form{
+    position: relative;
+    left: 10px;
+    top: 8px;
+    margin: 10px 10px;
+    padding: 10px 10px ;
+}
+form input{
+    height: 26px;
+    border: 2px solid blue;
+    width: 272px;
+    margin: 3px -1px;
+    padding: 11px 10px;
+    border-radius: 22px;
+}
+form input:hover{
+    background-color: rgb(241, 243, 134);
+}
+#btn{
+    border: 2px solid paleturquoise;
+    border-radius: 10px;
+    width: 86px;
+    height: 28px;
+    display: block;
+    margin: auto;
+}
+#btn:hover{
+    background-color: purple;
+    color: white;
+}
